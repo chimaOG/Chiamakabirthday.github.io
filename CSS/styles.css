@@ -1,0 +1,180 @@
+/*######################### CSS RESET##################*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 0;
+}
+
+
+/*######################## BODY STYLING #####################*/
+
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2014/04/07/05/25/gummibarchen-318362_960_720.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+header{
+    background-color:  rgba(0,0,0, 0.5);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d84848;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+header span{
+    margin-left: 15px;
+}
+
+.logo{
+    width: 30px;
+    height: 40px;
+}
+
+
+
+.main-index{
+    height: 470px;
+    width: 470px;
+    background-color: rgba(0,0,0, 0.7);
+    border-radius: 10%;
+    text-align: center;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: 20px;
+    color: #d84848;
+}
+
+.main-logo{
+    height: 250px;
+    width: 250px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #d84848;
+    color: black;
+    border: 2px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+button:hover{
+    color: wheat;
+    cursor: pointer;
+}
+
+footer{
+    background-color:  rgba(0,0,0, 0.5);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d84848;
+    
+}
+
+footer img{
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+}
+
+.mt-20{
+    margin-top: 10px;
+}
+
+.height{
+    height: 350px;
+}
+
+.card-height{
+    height: 250px;
+    background-color: rgba(196, 187, 187, 0.9);
+    color: white;
+    border-radius: 20px;
+}
+
+.wishes{
+    text-align: center;
+    color: #d84848;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.compiler{
+    background-color: rgba(0,0,0, 0.9);
+    border-radius: 15px;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.wisher{
+    text-align: center;
+    color: #d84848;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.mt-30{
+    margin-top: 45px;
+}
